@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      * {
+        font-family: "Rubik Wet Paint", system-ui;
+        font-weight: 400;
+        font-style: normal;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+      }
+      .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: #f0f0f0;
+        height: 100%;
+      }
+      .header {
+        display: block;
+        background-color: #d3d3d3;
+        justify-content: center;
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+      }
+      main {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+      }
+      .content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 60%;
+        height: 300px;
+        background-color: #fff7db;
+        text-align: center;
+      }
+      p {
+        width: 800px;
+        height: 80px;
+      }
+      .more {
+        display: flex;
+        justify-content: center;
+        flex-grow: 2;
+        height: 70px;
+        background-color: #ffeba1;
+        text-align: center;
+        margin: 5px;
+        line-height: 70px;
+      }
+      .more1 {
+        width: 770px;
+        height: 70px;
+        background-color: #ffeba1;
+        text-align: center;
+        margin: 5px;
+        line-height: 70px;
+      }
+      .right {
+        background-color: rgb(199, 240, 199);
+        width: 40%;
+        height: 300px;
+        text-align: center;
+        line-height: 100px;
+      }
+      .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #dddcdc;
+        width: 1100px;
+        height: 150px;
+      }
+      .foo {
+        background-color: white;
+        text-align: center;
+        margin: 15px;
+        padding: 50px;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">[Шапка страницы]</header>
+      <main class="main">
+        <section class="content">
+          <p>[Основная часть]</p>
+          <div class="more">[Ещё 1]</div>
+          <div class="more">[Ещё 2]</div>
+          <div class="more1">[Ещё 3]</div>
+        </section>
+        <aside class="right">[Боковая область]</aside>
+      </main>
+    </div>
+    <footer class="footer">
+      <section class="foo">[Секция футера 1]</section>
+      <section class="foo">[Секция футера 2]</section>
+      <section class="foo">[Секция футера 3]</section>
+      <section class="foo">[Секция футера 4]</section>
+    </footer>
+  </body>
+</html>
