@@ -3,27 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Макет</title>
+    <link rel="stylesheet" href="/styles/reset.css" />
+    <link rel="stylesheet" href="/styles/normalize.css" />
     <link rel="stylesheet" href="/styles/styles.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Poppins:wght@100;400&display=swap");
+    </style>
+
+    <title>Gallery</title>
   </head>
   <body>
-    <div class="wrapper">
-      <header class="header">[Шапка страницы]</header>
-      <main class="main">
-        <section class="content">
-          <p>[Основная часть]</p>
-          <div class="more">[Ещё 1]</div>
-          <div class="more">[Ещё 2]</div>
-          <div class="more1">[Ещё 3]</div>
-        </section>
-        <aside class="right">[Боковая область]</aside>
-      </main>
-    </div>
-    <footer class="footer">
-      <section class="foo">[Секция футера 1]</section>
-      <section class="foo">[Секция футера 2]</section>
-      <section class="foo">[Секция футера 3]</section>
-      <section class="foo">[Секция футера 4]</section>
-    </footer>
+    <header>
+      <div class="header__box">
+        <div class="inner">
+          <span>Magic Gallery</span>
+        </div>
+        <div class="inner">
+          <span>Magic Gallery</span>
+        </div>
+      </div>
+    </header>
+    <nav class="navigation">
+      <ul>
+        <li><a href="./wands.html">Magic wands</a></li>
+        <li><a href="#">Potions</a></li>
+        <li><a href="#">Magical transport</a></li>
+      </ul>
+    </nav>
+    <main></main>
   </body>
 </html>
