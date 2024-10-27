@@ -1,0 +1,43 @@
+html,
+body {
+  background-color: rgb(178, 139, 188);
+  font-family: "Henny Penny", system-ui;
+}
+
+header {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 72px;
+}
+
+.header__image {
+  width: 250px;
+  margin-top: -130px;
+}
+
+.section__wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.section__image {
+  width: 350px;
+  height: 300px;
+  border-radius: 30%;
+  -webkit-transition: -webkit-transform 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out;
+}
+
+.section__image:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+p {
+  padding: 65px;
+  text-align: center;
+  font-size: 30px;
+}
