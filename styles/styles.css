@@ -10,7 +10,7 @@ body {
   height: 100%;
   flex-wrap: wrap;
 }
-.container {
+.wrapper {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -26,7 +26,7 @@ body {
   text-align: center;
   line-height: 50px;
 }
-main {
+.main {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
